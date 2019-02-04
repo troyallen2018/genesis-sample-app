@@ -1774,7 +1774,8 @@ p.entry-meta {
 	align-items: center;
 }
 
-.site-top-bar .center-block a {
+.site-top-bar .center-block > a,
+.site-top-bar .center-block > span {
 	color: #111;
 	padding: 0 20px;
 	text-decoration: none;
@@ -1783,13 +1784,14 @@ p.entry-meta {
 	display: inline-block;
 }
 
-.site-top-bar .center-block a:last-child {
+.site-top-bar .center-block > span {
 	border-right: 0;
 }
 
 .site-top-bar .center-block .phone-no {
 	margin-left: 5px;
 	color: #286cbc;
+	text-decoration: none;
 }
 
 .site-top-bar .right-block {

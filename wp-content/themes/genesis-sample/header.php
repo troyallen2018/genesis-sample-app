@@ -67,7 +67,7 @@ function genesis_top_bar() {
 	$centerBlock = '<div class="center-block">' .
 		'<a href="/justine-test/wp-login.php">Sign In</a>' .
 		'<a href="/justine-test/contact-us">Contact Us</a>' .
-		'<a>Call <span class="phone-no">800.321-4567</span></a>' .
+		'<span>Call <a class="phone-no" href="tel://800-231-4567">800.321-4567</a></span>' .
 		'</div>';
 	$rightBlock = '<div class="right-block">' .
 		'<div class="search-wrapper"><input type="text" class="search">' .
